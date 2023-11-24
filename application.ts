@@ -33,7 +33,6 @@ const myModule = createModule({
                     yield String.fromCharCode(letter);
                 }
             },
-            song: () => ({}),
         },
         Song: {
             firstVerse: () => "Now I know my ABC's.",
